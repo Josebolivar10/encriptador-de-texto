@@ -1,0 +1,144 @@
+*{
+   
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+    
+}
+body{
+    background:#F6EACB;
+}
+
+
+.logo{
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 5%;
+    border-style: solid;
+    border-radius: 4cap;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+.textarea {
+    height: 400px;
+    border: none;
+    color: #295F98;
+    margin-top: 30px;
+    padding: 2px;
+    background:#e9e7e1;
+    text-transform: lowercase;
+}
+::placeholder { color: #295F98; }
+  .textarea:focus {
+      outline: none;
+    }
+ 
+.mensaje{
+        height: 700px;
+        width: 400px;
+        background: white;
+        background-image: url("/img/Lupa_imagen.png");
+        background-repeat: no-repeat;
+        background-position:top;
+        border: none;
+        border-radius: 24px;
+        color: #0A3871;
+        margin-left: 98px;
+        margin-top: 20px;
+        padding-left: 20px;
+        position: fixed;
+}
+
+.mensaje:focus {
+
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btnDesencriptar {
+    background: #D8DFE8;
+    border: 1px solid #402E7A;
+    border-radius: 24px;
+    color: #402E7A;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btnEncriptar {
+    background-color: #402E7A;
+    border: 1px solid #402E7A;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.contenedorParrafo{
+position:absolute;
+box-sizing:content-box;
+left: 1032px;
+top: 500px;
+background-color: white;
+
+}
+
+.contenedorParrafo h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Fira Sans' ;
+    text-align: center;
+    color: #402E7A;
+}
+
+.contenedorParrafo p{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color:#402E7A;
+    padding-top: 2px;
+    
+}
+
+.ocultar{
+    display: none;
+}
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: #402E7A;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 140px;
+    margin-top: 600px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion {
+    color: #495057;
+    font-size:18px;
+}
+
+.copyright {
+font-size: 16px;
+vertical-align: text-bottom;
+margin: 0;
+padding-top: 80px;
+padding-left: 240px;
+}
